@@ -182,7 +182,7 @@ def display_home(chapter_names):
 
 def main():
     # Page configuration
-    st.set_page_config(page_title="Shrimad Bhagavad Gita", page_icon="💀", layout="wide")
+    st.set_page_config(page_title="Shrimad Bhagavad Gita", page_icon="🦚", layout="wide")
 
 
 
