@@ -105,7 +105,7 @@ Aur koi mujhe sab dishao mein vyapak dekh kar poojta hai.
     text5 = """
     <span style="color:#FF5733;">Shloka 9.16 to 9.20 : </span> 
 Main hi <span style="color:#77beda;">yagya</span> hoon, <span style="color:#77beda;">mantra</span> hoon, <span style="color:#77beda;">aahuti</span> hoon, <span style="color:#77beda;">agni</span> hoon —
-Sab kuch mere hi roop mein ho raha hai. Main is jagat ka <span style="color:#77beda;">pita</span> hoon, <span style="color:#77beda;">mata</span> hoon, palan karne wala hoon, aur <span style="color:#77beda;">pitama</span>h bhi hoon.
+Sab kuch mere hi roop mein ho raha hai. Main is jagat ka <span style="color:#77beda;">pita</span> hoon, <span style="color:#77beda;">mata</span> hoon, palan karne wala hoon, aur <span style="color:#77beda;">pitamah</span> bhi hoon.
 Main hi <span style="color:#77beda;">vedon ka gyaan</span>, <span style="color:#77beda;">pavitra Omkaar</span> aur <span style="color:#77beda;">ved-mantra</span> bhi hoon. Main sab jeevon ki gati hoon, <span style="color:#77beda;">palak</span> hoon, <span style="color:#77beda;">saakshi</span> hoon,
 Mera hi vaas hai, main hi <span style="color:#77beda;">sharan</span> hoon, <span style="color:#77beda;">mitra</span> hoon,
 Srishti ka prarambh, ant aur aadhar hoon — main hi <span style="color:#77beda;">akshar beej</span> hoon. Main hi garmi deta hoon, main hi varsha karta hoon,
