@@ -232,7 +232,7 @@ def display_home(chapter_names):
             st.markdown("🛠️ Working on it...")
 
     with col2:
-        st.markdown(" ## Chapter 6: Dhyāna Yoga (The Yoga of Meditation)")
+        st.markdown(" ## Chapter 6: Dhyana Yoga (The Yoga of Meditation)")
     with col3:
         st.markdown(
             '<a href="?chapter=6#top" target="_self" '
@@ -254,7 +254,7 @@ def display_home(chapter_names):
             st.markdown("🛠️ Working on it...")
 
     with col2:
-        st.markdown(" ## Chapter 7: Jñāna Vijnāna Yoga (Yoga of Knowledge and Wisdom)")
+        st.markdown(" ## Chapter 7: Jnana Vijnana Yoga (Yoga of Knowledge and Wisdom)")
     with col3:
         st.markdown(
             '<a href="?chapter=7#top" target="_self" '
@@ -263,6 +263,49 @@ def display_home(chapter_names):
             'text-decoration:none;">Read More ▶</a>',
             unsafe_allow_html=True
         )
+    # Chapter 8 (manual)
+    # ---------------------------
+    col1, col2, col3 = st.columns([1, 3, 1])
+
+    with col1:
+        img_path = "attached_assets/generated_images/8.jpg"
+        if os.path.exists(img_path):
+            st.image(img_path, use_container_width=True)
+        else:
+            st.markdown("🛠️ Working on it...")
+
+    with col2:
+        st.markdown(" ## Chapter 8: Akshara Brahma Yoga (Yoga of the Imperishable Absolute)")
+    with col3:
+        st.markdown(
+            '<a href="?chapter=8#top" target="_self" '
+            'style="display:inline-block;padding:10px 14px;border-radius:8px;'
+            'border:2px solid orange;color:oldlace;background:#0D0B1A;'
+            'text-decoration:none;">Read More ▶</a>',
+            unsafe_allow_html=True
+        )
+    # Chapter 9 (manual)
+    # ---------------------------
+    col1, col2, col3 = st.columns([1, 3, 1])
+
+    with col1:
+        img_path = "attached_assets/generated_images/9.jpg"
+        if os.path.exists(img_path):
+            st.image(img_path, use_container_width=True)
+        else:
+            st.markdown("🛠️ Working on it...")
+
+    with col2:
+        st.markdown(" ## Chapter 9: Raja Vidya Raja Guhya Yoga (Yog through the King of Sciences)")
+    with col3:
+        st.markdown(
+            '<a href="?chapter=9#top" target="_self" '
+            'style="display:inline-block;padding:10px 14px;border-radius:8px;'
+            'border:2px solid orange;color:oldlace;background:#0D0B1A;'
+            'text-decoration:none;">Read More ▶</a>',
+            unsafe_allow_html=True
+        )
+
 
     st.markdown("---")
     st.markdown("Stay tuned ... New chapters will be released soon ....")
@@ -397,9 +440,9 @@ def main():
         6: "Dhyana Yoga",
         7: "Jnana Vijnana Yoga",
         8: "Akshara Brahma Yoga",
-        9: "Akshara Brahma Yoga",
-        10: "Raja Vidya Raja Guhya Yoga",
-        11: "Vibhuti Yoga",
+        9: "Raja Vidya Raja Guhya Yoga",
+        10: "Vibhuti Yoga",
+        11: "Vishwarupa Darshana Yoga",
         12: "Bhakti Yoga",
         13: "Kshetra Kshetrajna Vibhaga Yoga",
         14: "Gunatraya Vibhaga Yoga",
@@ -512,7 +555,7 @@ def main():
                     unsafe_allow_html=True
                 )
         with right:
-            if chapter_num < 8:
+            if chapter_num < 18:
                 st.markdown(
                     f'<a href="?chapter={chapter_num+1}#top" target="_self" '
                     'style="display:inline-block;padding:10px 14px;border-radius:8px;'
