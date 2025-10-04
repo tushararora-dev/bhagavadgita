@@ -508,10 +508,6 @@ def display_home(chapter_names):
             unsafe_allow_html=True
         )
 
-    st.markdown("---")
-    st.markdown("Stay tuned ... New chapters will be released soon ....")
-    st.markdown("---")
-
 def main():
     # Page configuration
     st.set_page_config(page_title="Shrimad Bhagavad Gita", page_icon="🦚", layout="wide")
