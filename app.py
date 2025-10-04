@@ -350,11 +350,104 @@ def display_home(chapter_names):
             unsafe_allow_html=True
         )
 
+
+    # Chapter 12 (manual)
+    # ---------------------------
+    col1, col2, col3 = st.columns([1, 3, 1])
+
+    with col1:
+        img_path = "attached_assets/generated_images/12main.jpg"
+        if os.path.exists(img_path):
+            st.image(img_path, use_container_width=True)
+        else:
+            st.markdown("🛠️ Working on it...")
+
+    with col2:
+        st.markdown(" ## Chapter 12: Bhakti Yoga (The Yoga of Devotion)")
+    with col3:
+        st.markdown(
+            '<a href="?chapter=12#top" target="_self" '
+            'style="display:inline-block;padding:10px 14px;border-radius:8px;'
+            'border:2px solid orange;color:oldlace;background:#0D0B1A;'
+            'text-decoration:none;">Read More ▶</a>',
+            unsafe_allow_html=True
+        )
+
+ 
+
+    # Chapter 13 (manual)
+    # ---------------------------
+    col1, col2, col3 = st.columns([1, 3, 1])
+
+    with col1:
+        img_path = "attached_assets/generated_images/11main.jpg"
+        if os.path.exists(img_path):
+            st.image(img_path, use_container_width=True)
+        else:
+            st.markdown("🛠️ Working on it...")
+
+    with col2:
+        st.markdown(" ## Chapter 13: Kshetra Kshetrajna Vibhaga Yoga (Yoga of Discriminating between the Field and the Knower of the Field)")
+    with col3:
+        st.markdown(
+            '<a href="?chapter=13#top" target="_self" '
+            'style="display:inline-block;padding:10px 14px;border-radius:8px;'
+            'border:2px solid orange;color:oldlace;background:#0D0B1A;'
+            'text-decoration:none;">Read More ▶</a>',
+            unsafe_allow_html=True
+        )
+
+  
+
+    # Chapter 14 (manual)
+    # ---------------------------
+    col1, col2, col3 = st.columns([1, 3, 1])
+
+    with col1:
+        img_path = "attached_assets/generated_images/14main.jpg"
+        if os.path.exists(img_path):
+            st.image(img_path, use_container_width=True)
+        else:
+            st.markdown("🛠️ Working on it...")
+
+    with col2:
+        st.markdown(" ## Chapter 14: Guna-Traya Vibhaga Yoga (oga of the Classification of the Three Gunas)")
+    with col3:
+        st.markdown(
+            '<a href="?chapter=14#top" target="_self" '
+            'style="display:inline-block;padding:10px 14px;border-radius:8px;'
+            'border:2px solid orange;color:oldlace;background:#0D0B1A;'
+            'text-decoration:none;">Read More ▶</a>',
+            unsafe_allow_html=True
+        )
+
+
+
+    # Chapter 15 (manual)
+    # ---------------------------
+    col1, col2, col3 = st.columns([1, 3, 1])
+
+    with col1:
+        img_path = "attached_assets/generated_images/15main.jpg"
+        if os.path.exists(img_path):
+            st.image(img_path, use_container_width=True)
+        else:
+            st.markdown("🛠️ Working on it...")
+
+    with col2:
+        st.markdown(" ## Chapter 15: Purushottama Yoga (Yoga of the Supreme Person)")
+    with col3:
+        st.markdown(
+            '<a href="?chapter=15#top" target="_self" '
+            'style="display:inline-block;padding:10px 14px;border-radius:8px;'
+            'border:2px solid orange;color:oldlace;background:#0D0B1A;'
+            'text-decoration:none;">Read More ▶</a>',
+            unsafe_allow_html=True
+        )
+
     st.markdown("---")
     st.markdown("Stay tuned ... New chapters will be released soon ....")
     st.markdown("---")
-
-
 
 def main():
     # Page configuration
