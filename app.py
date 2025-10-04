@@ -380,7 +380,7 @@ def display_home(chapter_names):
     col1, col2, col3 = st.columns([1, 3, 1])
 
     with col1:
-        img_path = "attached_assets/generated_images/11main.jpg"
+        img_path = "attached_assets/generated_images/13main.jpg"
         if os.path.exists(img_path):
             st.image(img_path, use_container_width=True)
         else:
@@ -449,7 +449,7 @@ def display_home(chapter_names):
     col1, col2, col3 = st.columns([1, 3, 1])
 
     with col1:
-        img_path = "attached_assets/generated_images/15main.jpg"
+        img_path = "attached_assets/generated_images/16main.jpg"
         if os.path.exists(img_path):
             st.image(img_path, use_container_width=True)
         else:
@@ -465,7 +465,7 @@ def display_home(chapter_names):
             'text-decoration:none;">Read More ▶</a>',
             unsafe_allow_html=True
         )
-    # Chapter 15 (manual)
+    # Chapter 17 (manual)
     # ---------------------------
     col1, col2, col3 = st.columns([1, 3, 1])
 
@@ -486,7 +486,7 @@ def display_home(chapter_names):
             'text-decoration:none;">Read More ▶</a>',
             unsafe_allow_html=True
         )
-    # Chapter 15 (manual)
+    # Chapter 18 (manual)
     # ---------------------------
     col1, col2, col3 = st.columns([1, 3, 1])
 
