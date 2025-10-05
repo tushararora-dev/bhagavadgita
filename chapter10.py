@@ -123,7 +123,7 @@ Yaksh-Rakshason mein dhan ke devta <span style="color:#77beda;">Kuber</span> hoo
 Vasus mein <span style="color:#77beda;">Agni</span> hoon,
 Aur parvaton mein Main <span style="color:#77beda;">Meru</span> hoon. Purohiton mein <span style="color:#77beda;">Brihaspati</span> hoon,
 Senapatiyon mein <span style="color:#77beda;">Kartikeya</span> (<span style="color:#77beda;">Skanda</span>) hoon,
-Aur jalashay (<span style="color:#77beda;">saritaon</span>) mein main <span style="color:#77beda;">Sagar</span>r hoon. Maharshiyon mein <span style="color:#77beda;">Bhrigu</span> hoon,
+Aur jalashay (<span style="color:#77beda;">saritaon</span>) mein main <span style="color:#77beda;">Sagarr</span> hoon. Maharshiyon mein <span style="color:#77beda;">Bhrigu</span> hoon,
 Vaani mein <span style="color:#77beda;">Akshar Om</span> hoon,
 Yagyaon mein <span style="color:#77beda;">Jap-Yagya</span> hoon,
 Aur achal cheezon mein <span style="color:#77beda;">Himalaya</span> hoon.
